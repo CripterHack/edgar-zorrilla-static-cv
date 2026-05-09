@@ -1,208 +1,399 @@
 <!DOCTYPE html>
-<html lang="en" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-            
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Curriculum Vitae</title>
-            <style>
-                @page {
-                    size: A4;
-                    margin: 20mm;
-                }
-                body {
-                    font-family: Arial, sans-serif;
-                    font-size: 12pt;
-                    background-color: #f5f5f5;
-                    color: #333;
-                    text-align: left;
-                    width: 210mm;
-                    margin: 15mm auto;
-                    background-color: white;
-                    padding: 10mm;
-                    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
-                    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
-                    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
-                }
-                @media print {
-                    body {
-                        margin: 0;
-                        width: auto;
-                        font-size: 9.8pt;
-                        background-color: white;
-                        -webkit-box-shadow:none;
-                        -moz-box-shadow:none;
-                        box-shadow:none;
-                        padding:0;
-                    }
-                    header, section {
-                        page-break-after: auto;
-                    }
-                    header {
-                        margin-bottom: 7px;
-                    }
-                    header h1 {
-                        font-size: 23px;
-                    }
-                    header h2 {
-                        font-size: 15px;
-                        margin-bottom: 0.15em;
-                    }
-                    section {
-                        margin-bottom: 7px;
-                    }
-                    h3 {
-                        font-size: 15px;
-                        padding-bottom: 2px;
-                        margin-bottom: 6px;
-                    }
-                    li {
-                        margin-bottom: 3px;
-                    }
-                    section.experience-section {
-                        page-break-inside: auto;
-                        break-inside: auto;
-                    }
-                    section.experience-section > ul > li {
-                        page-break-inside: avoid;
-                        break-inside: avoid;
-                    }
-                    section.experience-section > ul > li[style] {
-                        margin-top: 7px !important;
-                    }
-                    section.experience-section ul ul {
-                        margin-top: 0.15em !important;
-                    }
-                    section.experience-section h3 {
-                        page-break-after: avoid;
-                        break-after: avoid;
-                    }
-                }
-                header, section {
-                    page-break-after: avoid;
-                    page-break-inside: avoid;
-                }
-                header {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    text-align: center;
-                    margin-bottom: 20px;
-                }
-                header div {
-                    width: 100%;
-                }
-                header img {
-                    border-radius: 50%;
-                    margin-right: 20px;
-                    width: 100px;
-                    height: 100px;
-                }
-                header h1 {
-                    margin: 0;
-                    font-size: 28px;
-                }
-                header h2 {
-                    margin-top: 0.25em;
-                }
-                header p {
-                    margin-bottom: 0;
-                }
-                section {
-                    margin-bottom: 20px;
-                    text-align: left;
-                }
-                h2, h3 {
-                    page-break-after: avoid;
-                }
-                h2 {
-                    font-size: 22px;
-                    color: midnightblue;
-                    margin-bottom: 0;
-                }
-                h3 {
-                    font-size: 18px;
-                    border-bottom: 2px solid #333;
-                    padding-bottom: 5px;
-                    margin-bottom: 15px;
-                }
-                ul {
-                    list-style-type: none;
-                    padding: 0;
-                }
-                li {
-                    margin-bottom: 7px;
-                }
-            </style></head>
-        <body class="" style="">
-            <header>
-                <div>
-                    <h1>Edgar Zorrilla</h1>
-                    <h2>Full Stack Developer, Frontend Focused | React, TypeScript, Shopify, BigCommerce</h2>
-                    <p>Mexico City | +52 56 5328 3282 | edgar.cripter@gmail.com | edgar.izignamx.com | github.com/CripterHack</p>
-                </div>
-            </header>
-            <section>
-                <h3>Summary</h3>
-                <p>Senior Full-Stack Developer with 10+ years of experience building high-performance web applications, e-commerce platforms, and API integrations. Strong Frontend focus with React, TypeScript, JavaScript, Shopify Liquid, BigCommerce Stencil, responsive UI, performance optimization, and production support across remote agile teams.</p>
-            </section>
-            <section>
-                <h3>Technical Skills</h3>
-                <ul style="list-style-type: circle;" class="skills">
-                    <li style="margin-top: 0.5em;"><b>Frontend Development:</b> React, TypeScript, JavaScript (ES6+), HTML5, CSS3, Sass, Tailwind CSS, Angular, Vue.js</li>
-                    <li><b>E-commerce Platforms:</b> Shopify, Shopify Liquid, Shopify GraphQL, BigCommerce Stencil, WordPress, WooCommerce</li>
-                    <li><b>Backend Development:</b> Go, Node.js, Python, Ruby on Rails, PHP, REST &amp; GraphQL APIs, Microservices Architecture</li>
-                    <li><b>Data &amp; Cloud:</b> DynamoDB, PostgreSQL, MySQL, MongoDB, Redis, AWS, Google Cloud Platform (GCP), Heroku</li>
-                    <li><b>DevOps &amp; Workflow:</b> Docker, CI/CD, GitHub Actions, Git, Sentry, Jira, Trello, Agile/Scrum, STG/PRD deployments</li>
-                </ul>
-            </section>
-            <section class="experience-section">
-                <h3>Professional Experience</h3>
-                <ul style="
-    list-style-type: circle;
-">
-                    <li><b>Backend Developer - BeFra Group | Mexico (Remote) (Feb 2026 - Apr 2026)</b> <br><ul style="
-    /* list-style-type: circle; */
-    /* margin-left: 2em; */
-    margin-top: 0.5em;
-"><li>Optimized order loading flows within the web/API scope using Go, lighter Shopify GraphQL queries, cursor-based pagination, server-side caching, in-memory React caching, AbortController, and more efficient state handling.</li>
-<li>Delivered a redesigned Shopify "Únete" page for Betterware MX with reusable and customizable sections for non-technical users.</li>
-<li>Fixed 15+ bugs and edge cases in Earn More, including edit race conditions, auto-assignment logic, Shopify-DynamoDB state consistency, and level-change related flows.</li>
-<li>Supported JAFRAMX UX improvements, CLS optimization, carousel standardization, customer accounts migration audits, CI/CD pipelines, STG/PRD deployments, and PR technical documentation.</li>
-</ul></li>
-                    <li style="
-    margin: 20px auto 0px;
-"><b>Senior Full-Stack Developer - SmartPorts | Mexico City (Hybrid) (Apr 2025 - Aug 2025)</b> <br><ul style="
-    /* list-style-type: circle; */
-    /* margin-left: 2em; */
-    margin-top: 0.5em;
-"><li>Architected and developed a container investment platform with React, TypeScript, Node.js, Python, Solidity, and cloud-based data flows for logistics and valuation workflows.</li>
-</ul></li>
-                    <li style="
-    margin: 20px auto 0px;
-"><b>Full-Stack Developer - UNISOFOM | Mexico City (Hybrid) (Nov 2024 - Jan 2025)</b> <br><ul style="
-    /* list-style-type: circle; */
-    /* margin-left: 2em; */
-    margin-top: 0.5em;
-"><li>Designed, developed, and maintained scalable web applications with Ruby on Rails, REST/GraphQL APIs, PostgreSQL, MongoDB, Redis, Angular, React, Sass, and Figma-based UI implementation.</li></ul></li>
-                    <li style="
-    margin: 20px auto 0px;
-"><b>Web Development Specialist - Vaperanger | USA (Remote) (Sep 2022 - Nov 2024)</b> <br><ul style="
-    /* list-style-type: circle; */
-    /* margin-left: 2em; */
-    margin-top: 0.5em;
-"><li>Maintained and enhanced high-traffic e-commerce platforms using Shopify Liquid, BigCommerce Stencil, HTML, CSS, JavaScript, GitHub, Node.js API endpoints, and internal Python tools.</li></ul></li>
-                <li style="
-    margin: 20px auto 0px;
-"><b>Earlier Experience - Entravision, IzignaMx &amp; Freelance | México City (Remote) (Jun 2014 - Dec 2021)</b> <br><ul style="
-    /* list-style-type: circle; */
-    /* margin-left: 2em; */
-    margin-top: 0.5em;
-"><li>Delivered WordPress VIP, Shopify, BigCommerce, WordPress, PHP, Node.js, React, SEO, performance, and API integration projects for enterprise teams and independent clients.</li></ul></li></ul>
-            </section>
-            <section>
-                <h3>Education &amp; Certifications</h3>
-                <ul>
-                    <li><b>Bachelor of Systems Engineering:</b> UTEL University | 2019 - 2025</li>
-                <li><b>Certifications:</b> EF SET English Certificate C1 Advanced, React + Redux, Go, Ruby</li></ul>
-            </section>
-        
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Edgar Zorrilla is a Full Stack Developer with a strong Frontend focus, specializing in React, TypeScript, Shopify, BigCommerce, e-commerce platforms, API integrations, performance optimization, and production support.">
+    <meta name="author" content="Edgar Zorrilla">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="color-scheme" content="light">
+    <meta name="theme-color" content="#191970">
+
+    <link rel="canonical" href="https://edgar.izignamx.com/">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Edgar Zorrilla | Full Stack Developer, Frontend Focused">
+    <meta property="og:description" content="Full Stack Developer focused on React, TypeScript, Shopify, BigCommerce, e-commerce platforms, API integrations, performance optimization, and production-ready web experiences.">
+    <meta property="og:url" content="https://edgar.izignamx.com/">
+    <meta property="og:site_name" content="Edgar Zorrilla CV">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Edgar Zorrilla | Full Stack Developer, Frontend Focused">
+    <meta name="twitter:description" content="React, TypeScript, Shopify, BigCommerce, e-commerce platforms, API integrations, performance optimization, and production support.">
+
+    <title>Edgar Zorrilla | Full Stack Developer, Frontend Focused</title>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Edgar Zorrilla",
+        "jobTitle": "Full Stack Developer, Frontend Focused",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Mexico City",
+            "addressCountry": "MX"
+        },
+        "email": "mailto:edgar.cripter@gmail.com",
+        "telephone": "+525653283282",
+        "url": "https://edgar.izignamx.com/",
+        "sameAs": [
+            "https://github.com/CripterHack"
+        ],
+        "knowsAbout": [
+            "React",
+            "TypeScript",
+            "JavaScript",
+            "Shopify",
+            "Shopify Liquid",
+            "Shopify GraphQL",
+            "BigCommerce Stencil",
+            "WordPress",
+            "WooCommerce",
+            "Go",
+            "Node.js",
+            "Python",
+            "Ruby on Rails",
+            "PHP",
+            "REST APIs",
+            "GraphQL APIs",
+            "E-commerce",
+            "Performance Optimization",
+            "Frontend Development",
+            "Full Stack Development"
+        ]
+    }
+    </script>
+
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+
+        html {
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12pt;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: left;
+            width: 210mm;
+            margin: 15mm auto;
+            background-color: white;
+            padding: 10mm;
+            -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+            -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+        }
+
+        .download-cv-button {
+            position: fixed;
+            top: 16px;
+            right: 16px;
+            z-index: 10;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 42px;
+            padding: 0 16px;
+            border-radius: 6px;
+            background: midnightblue;
+            color: white;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1;
+            text-decoration: none;
+            -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .16);
+            -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .16);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .16);
+        }
+
+        .download-cv-button:hover,
+        .download-cv-button:focus {
+            background: #10105d;
+            text-decoration: none;
+        }
+
+        .download-cv-button:focus-visible {
+            outline: 3px solid #5555ff;
+            outline-offset: 3px;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        a:hover,
+        a:focus {
+            text-decoration: underline;
+        }
+
+        header,
+        section {
+            page-break-after: avoid;
+            page-break-inside: avoid;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header div {
+            width: 100%;
+        }
+
+        header img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 100px;
+            height: 100px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        header h2 {
+            margin-top: 0.25em;
+        }
+
+        header p {
+            margin-bottom: 0;
+        }
+
+        section {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        h2,
+        h3 {
+            page-break-after: avoid;
+        }
+
+        h2 {
+            font-size: 22px;
+            color: midnightblue;
+            margin-bottom: 0;
+        }
+
+        h3 {
+            font-size: 18px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 7px;
+        }
+
+        .skills {
+            list-style-type: circle;
+            margin: 0 0 0 1em;
+        }
+
+        .skills li:first-child {
+            margin-top: 0.5em;
+        }
+
+        .experience-section .role {
+            margin: 20px auto 0;
+        }
+
+        .experience-section .role:first-child {
+            margin-top: 0;
+        }
+
+        .experience-section .role ul {
+            margin-top: 0.5em;
+        }
+
+        @media screen and (max-width: 900px) {
+            body {
+                width: auto;
+                min-width: 0;
+                margin: 0;
+                padding: 20px;
+                box-shadow: none;
+            }
+
+            .download-cv-button {
+                position: sticky;
+                top: 10px;
+                right: auto;
+                width: 100%;
+                margin: 0 0 18px;
+            }
+        }
+
+        @media print {
+            body {
+                margin: 0;
+                width: auto;
+                font-size: 9.8pt;
+                background-color: white;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                padding: 0;
+            }
+
+            .download-cv-button {
+                display: none !important;
+            }
+
+            header,
+            section {
+                page-break-after: auto;
+            }
+
+            header {
+                margin-bottom: 7px;
+            }
+
+            header h1 {
+                font-size: 23px;
+            }
+
+            header h2 {
+                font-size: 15px;
+                margin-bottom: 0.15em;
+            }
+
+            header p {
+                margin-top: 0.25em;
+            }
+
+            section {
+                margin-bottom: 7px;
+            }
+
+            h3 {
+                font-size: 15px;
+                padding-bottom: 2px;
+                margin-bottom: 6px;
+            }
+
+            li {
+                margin-bottom: 3px;
+            }
+
+            section.experience-section {
+                page-break-inside: auto;
+                break-inside: auto;
+            }
+
+            section.experience-section > ul > li {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+
+            section.experience-section .role {
+                margin-top: 7px !important;
+            }
+
+            section.experience-section .role:first-child {
+                margin-top: 0 !important;
+            }
+
+            section.experience-section ul ul {
+                margin-top: 0.15em !important;
+            }
+
+            section.experience-section h3 {
+                page-break-after: avoid;
+                break-after: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a class="download-cv-button" href="https://raw.githubusercontent.com/CripterHack/edgar-zorrilla-static-cv/refs/heads/master/CV-Edgar-Zorrilla-05-2026-en.pdf" target="_blank" rel="noopener noreferrer" type="application/pdf" download="CV-Edgar-Zorrilla-05-2026-en.pdf" aria-label="Download Edgar Zorrilla CV as PDF">
+        Download PDF CV
+    </a>
+    <header>
+        <div>
+            <h1>Edgar Zorrilla</h1>
+            <h2>Full Stack Developer, Frontend Focused | React, TypeScript, Shopify, BigCommerce</h2>
+            <p>Mexico City | <a href="tel:+525653283282" aria-label="Call Edgar Zorrilla">+52 56 5328 3282</a> |
+                <a href="mailto:edgar.cripter@gmail.com" aria-label="Email Edgar Zorrilla">edgar.cripter@gmail.com</a> |
+                <a href="https://edgar.izignamx.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Edgar Zorrilla portfolio website">edgar.izignamx.com</a> |
+                <a href="https://github.com/CripterHack" target="_blank" rel="noopener noreferrer" aria-label="Visit Edgar Zorrilla GitHub profile">github.com/CripterHack</a>
+            </p>
+        </div>
+    </header>
+    <main>
+        <section id="summary" aria-labelledby="summary-title">
+            <h3 id="summary-title">Summary</h3>
+            <p>Senior Full-Stack Developer with 10+ years of experience building high-performance web applications, e-commerce platforms, and API integrations. Strong Frontend focus with React, TypeScript, JavaScript, Shopify Liquid, BigCommerce Stencil, responsive UI, performance optimization, and production support across remote agile teams.</p>
+        </section>
+        <section id="technical-skills" aria-labelledby="skills-title">
+            <h3 id="skills-title">Technical Skills</h3>
+            <ul class="skills">
+                <li><b>Frontend Development:</b> React, TypeScript, JavaScript (ES6+), HTML5, CSS3, Sass, Tailwind CSS, Angular, Vue.js</li>
+                <li><b>E-commerce Platforms:</b> Shopify, Shopify Liquid, Shopify GraphQL, BigCommerce Stencil, WordPress, WooCommerce</li>
+                <li><b>Backend Development:</b> Go, Node.js, Python, Ruby on Rails, PHP, REST &amp; GraphQL APIs, Microservices Architecture</li>
+                <li><b>Data &amp; Cloud:</b> DynamoDB, PostgreSQL, MySQL, MongoDB, Redis, AWS, Google Cloud Platform (GCP), Heroku</li>
+                <li><b>DevOps &amp; Workflow:</b> Docker, CI/CD, GitHub Actions, Git, Sentry, Jira, Trello, Agile/Scrum, STG/PRD deployments</li>
+            </ul>
+        </section>
+        <section id="professional-experience" class="experience-section" aria-labelledby="experience-title">
+            <h3 id="experience-title">Professional Experience</h3>
+            <ul style="list-style-type:circle">
+                <li class="role"><b>Backend Developer / FullStack E-commerce Engineer - BeFra Group | Mexico (Remote) (Feb 2026 - Apr 2026)</b><br>
+                    <ul>
+                        <li>Optimized order loading flows within the web/API scope using Go, lighter Shopify GraphQL queries, cursor-based pagination, server-side caching, in-memory React caching, AbortController, and more efficient state handling.</li>
+                        <li>Delivered a redesigned Shopify "Únete" page for Betterware MX with reusable and customizable sections for non-technical users.</li>
+                        <li>Fixed 15+ bugs and edge cases in Earn More, including edit race conditions, auto-assignment logic, Shopify-DynamoDB state consistency, and level-change related flows.</li>
+                        <li>Supported JAFRAMX UX improvements, CLS optimization, carousel standardization, customer accounts migration audits, CI/CD pipelines, STG/PRD deployments, and PR technical documentation.</li>
+                    </ul>
+                </li>
+                <li class="role"><b>Senior Full-Stack Developer - SmartPorts | Mexico City (Hybrid) (Apr 2025 - Aug 2025)</b><br>
+                    <ul>
+                        <li>Architected and developed a container investment platform with React, TypeScript, Node.js, Python, Solidity, and cloud-based data flows for logistics and valuation workflows.</li>
+                    </ul>
+                </li>
+                <li class="role"><b>Full-Stack Developer - UNISOFOM | Mexico City (Hybrid) (Nov 2024 - Jan 2025)</b><br>
+                    <ul>
+                        <li>Designed, developed, and maintained scalable web applications with Ruby on Rails, REST/GraphQL APIs, PostgreSQL, MongoDB, Redis, Angular, React, Sass, and Figma-based UI implementation.</li>
+                    </ul>
+                </li>
+                <li class="role"><b>Web Development Specialist - Vaperanger | USA (Remote) (Sep 2022 - Nov 2024)</b><br>
+                    <ul>
+                        <li>Maintained and enhanced high-traffic e-commerce platforms using Shopify Liquid, BigCommerce Stencil, HTML, CSS, JavaScript, GitHub, Node.js API endpoints, and internal Python tools.</li>
+                    </ul>
+                </li>
+                <li class="role"><b>Earlier Experience - Entravision, IzignaMx &amp; Freelance | Mexico City / Remote (Jun 2014 - Dec 2021)</b><br>
+                    <ul>
+                        <li>Delivered WordPress VIP, Shopify, BigCommerce, WordPress, PHP, Node.js, React, SEO, performance, and API integration projects for enterprise teams and independent clients.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="education-certifications" aria-labelledby="education-title">
+            <h3 id="education-title">Education &amp; Certifications</h3>
+            <ul>
+                <li><b>Bachelor of Systems Engineering:</b> UTEL University | 2019 - 2025</li>
+                <li><b>Certifications:</b> EF SET English Certificate C1 Advanced, React + Redux, Go, Ruby</li>
+            </ul>
+        </section>
+    </main>
 </body></html>
